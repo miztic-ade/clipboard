@@ -1,0 +1,208 @@
+*, *::before, *::after {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+    .love {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .lols{
+        background-image: url(./images/bg-header-desktop.png);
+        background-size: cover;}
+        
+    .lol1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 40%;
+        margin:  40px auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first-img img{
+        width: 70px;
+        height: auto;
+    }
+    .lol2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .lol3 {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+        .pic {
+        width: 70%;
+        height: auto;
+         }
+
+        .pic img{
+        width: 90%;
+        height: auto;
+        }
+        .pic2{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+        .pic2 h2{
+            font-size: 1.8rem;
+        }
+
+    .lol4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .lol5{
+        display: flex;
+        justify-content: center;
+    }
+
+    .lol6{
+           display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .lol7{
+           display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+    .lol7 h2{
+        font-size: 1.5rem;
+    }
+
+    .lol8{
+        display: flex;
+        flex-direction: row;
+         align-items: center;
+        width: 70%;
+        margin: 30px auto;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .lol9{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        margin: 30px auto;
+        text-align: center;
+        gap: 10px;
+
+    }
+
+    .lol10{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    .not2{
+        background-color: beige;
+    }
+
+    .lol101{
+        display: flex;
+        gap: 50px;
+        margin-left: -300px;
+    }
+    .lol102{
+        display: flex;
+        gap: 20px;
+    }
+
+    .last-img img{
+        width: 40px;
+        height: auto;
+    }
+
+    .but{
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        color: white;
+    }
+    .but1{
+        background-color: green;
+    }
+    .but2{
+        background-color: blue;
+    }
+
+    @media screen and (max-width: 768px) {
+        .love{
+            width: 100%;
+            height: auto;
+            padding: 20px auto;
+        }
+        .lol1, .lol2, .lol3, .lol4, .lol5, .lol6, .lol7, .lol8, .lol9, .lol10{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin: 20px auto;
+            height: auto;
+            text-align: center;
+            gap: 20px;
+        }
+        .pic{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+
+        .lol101{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: auto;
+            margin: auto;
+        }
+        .but{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+        }
+        
+    }
